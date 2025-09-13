@@ -2,6 +2,8 @@
 import picture from "../../assets/Photo2.jpg"
 import Contact from "../Contact/Contact.jsx";
 import "./landingPage.css";
+import { Link } from 'react-router-dom';
+
 
 function LandingPage() {
   return (
@@ -22,7 +24,9 @@ function LandingPage() {
               Passionate about building modern, responsive, and user-friendly web applications.
               Welcome to my portfolio!
             </p>
-            <a href="/projects" className="btn">View My Work</a>
+            {/* <a href="/projects" className="btn">View My Work</a> */}
+            <Link to="/projects" className="btn">View My Work</Link>
+
           </div>
         </div>
         <div className="card about-card">
