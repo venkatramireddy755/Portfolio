@@ -1,0 +1,22 @@
+/* Make app fill the full viewport */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* 100% viewport height */
+  width: 100%;
+}
+
+
+/* Main content area */
+.main-content {
+  flex: 1 0 70%;   /* Take remaining space (70%) */
+  overflow-y: auto; /* Scroll if content is more */
+  padding: 15px;
+  background: #f4f4f4;
+}
+

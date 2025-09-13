@@ -1,0 +1,102 @@
+.about-container {
+  padding: 80px 10%;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.about-left h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  border-left: 6px solid #f39c12;
+  padding-left: 12px;
+}
+
+.about-left .tagline {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+.about-right {
+  flex: 2;
+  min-width: 300px;
+}
+
+.about-right p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: #34495e;
+}
+
+.about-right .highlight {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.skills h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills ul li {
+  background: #fff;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-left: 4px solid #f39c12;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skills ul li:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.about-buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #f39c12;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background: #d35400;
+  transform: scale(1.05);
+}
+
+.resume-btn {
+  background: #2c3e50;
+}
+
+.resume-btn:hover {
+  background: #1a252f;
+}
