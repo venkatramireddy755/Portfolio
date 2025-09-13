@@ -1,6 +1,6 @@
 import "./About.css";
 import resume from "../../assets/kapu venkatrami reddy.pdf"; // <- place your resume inside assets folder
-
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
@@ -39,7 +39,7 @@ function About() {
           </div>
 
           <div className="about-buttons">
-            <a href="/projects" className="btn">View My Projects</a>
+            <Link to="/projects" className="btn">View My Project</Link>
             <a href={resume} download className="btn resume-btn">Download Resume</a>
           </div>
         </div>

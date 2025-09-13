@@ -46,11 +46,13 @@ function Projects() {
                 <span key={i}>{t}</span>
               ))}
             </div>
-            {/* <a href={proj.link} target="_blank" rel="noopener noreferrer" className="btn">
+            <a href={proj.link} target="_blank" rel="noopener noreferrer" className="btn">
               View Project
-            </a> */}
-            <Link to="/projects" className="btn">View Project</Link>
-
+            </a>
+            {/* <Link to="/projects" className="btn">View Project</Link> */}
+            {/* <Link to={proj.link} className="btn">
+                View Project
+              </Link> */}
           </div>
         ))}
       </div>
