@@ -1,4 +1,5 @@
 import "./Project.css";
+import { Link } from 'react-router-dom';
 
 function Projects() {
   const projects = [
@@ -45,9 +46,11 @@ function Projects() {
                 <span key={i}>{t}</span>
               ))}
             </div>
-            <a href={proj.link} target="_blank" rel="noopener noreferrer" className="btn">
+            {/* <a href={proj.link} target="_blank" rel="noopener noreferrer" className="btn">
               View Project
-            </a>
+            </a> */}
+            <Link to="/projects" className="btn">View Project</Link>
+
           </div>
         ))}
       </div>
